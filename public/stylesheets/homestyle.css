@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+}
+a{
+  color: #000 !important;
+  text-decoration: none !important;
+}
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+  
+}
+#mainPage{
+  width: 100%;
+}
+#mainPage #nav{
+  height: 8vh;
+  width: 100vw;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3vw;
+  position: fixed;
+  z-index: 9999999999;
+}
+#mainPage #nav #navmid{
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainPage #nav #navmid a{
+  font-size: 1.3vw;
+  text-decoration: none;
+}
+#mainPage #nav #navright{
+  width: 17.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainPage #nav #navright a{
+  text-decoration: none;
+}
+#mainPage #nav #navright #search{
+  position: relative;
+}
+
+#mainPage #nav #navright #search input {
+ position: relative;
+ height: 4.5vh;
+ border-radius: 50px;
+ width: 10vw;
+ font-size: 1.3vw;
+ padding-left: 3vw;
+}
+#mainPage #nav #navright #search svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(20%,20%);
+}
+#mainPage #nav2{
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  position: fixed;
+  top:8vh;
+  z-index: 99999999999999999;
+  background-color: white;
+}
+/* div .sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+} */
+#mainPage #nav2 #nav2right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 13vw;
+}
+#mainPage #nav2 #nav2left h3{
+  font-size: 1.26vw;
+}
+#mainPage #nav2 #nav2right a{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  
+}
+#mainPage #nav2 #nav2right a h4{
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+#mainPage #mainsection{
+display: flex;
+}
+#mainPage #mainsection #mainfiltersection {
+  width: 18vw;
+  /* background-color: antiquewhite; */
+  overflow-y: scroll;
+  height: 84vh;
+  position: fixed;
+  top: 16vh;
+}
+#mainPage #mainsection #mainfiltersection hr{
+  width: 90%;
+  margin-left: 5%;
+}
+#mainPage #mainsection #mainfiltersection #shoetop,
+#mainPage #mainsection #mainfiltersection #gender,
+#mainPage #mainsection #mainfiltersection #kids,
+#mainPage #mainsection #mainfiltersection #shopbyprice,
+#mainPage #mainsection #mainfiltersection #color{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  /* background-color: greenyellow; */
+}
+#mainPage #mainsection #mainfiltersection h4{
+  font-size: 1.22vw;
+}
+#mainPage #mainsection #mainfiltersection a{
+  font-size: 1.2vw;
+  margin-top: .4vh;
+  
+}
+#mainPage #mainsection #mainfiltersection #Ctop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  /* background-color: blue; */
+}
+#mainPage #mainsection #mainfiltersection #Cbot{
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-between;
+  margin-top: .6vh;
+  /* background-color: crimson; */
+}
+#mainPage #mainsection #mainfiltersection #color{
+  /* background-color: brown; */
+  height: 35vh;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 80%;
+  width: 80%;
+  /* background-color: chartreuse; */
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  /* background-color: cornflowerblue; */
+  width: 30%;
+
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors .circle{
+  height: 5vh;
+  width: 5vh;
+  border: 1px solid black;
+  border-radius: 50%;
+  /* background-color: cadetblue; */
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(1) .circle{
+  background-color: purple;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(2) .circle{
+  background-color: black;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(3) .circle{
+  background-color: red;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(4) .circle{
+  background-color: blue;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(5) .circle{
+  background-color: white;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(6) .circle{
+  background-color: brown;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(7) .circle{
+  background-color: green;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(8) .circle{
+  background-color: grey;
+}
+#mainPage #mainsection #mainfiltersection #color #Cbot #colors:nth-child(9) .circle{
+  background-color: pink ;
+}
+#mainPage #mainsection #mainfiltersection #extra{
+  height: 10vh;
+}
+#mainPage #mainsection #mainproductsection{
+  width: 81vw;
+  /* background-color: rgb(249, 250, 215); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 18%;
+  top: 16vh;
+  
+}
+#mainPage #mainsection #mainproductsection .card{
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  margin-left: 1.2vw;
+ 
+}

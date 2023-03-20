@@ -1,0 +1,27 @@
+#mainPage #mainproduct{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 65vw;
+}
+#mainPage #mainproduct #pimg{
+    height: 70vh;
+}
+#mainPage #mainproduct #prodets{
+    width: 25vw;
+}
+#mainPage #mainproduct #prodets a{
+    padding: 1.5vh;
+    width: 7vw;
+    margin: 5px;
+
+}
+#mainPage #mainproduct #prodets #addtobag,
+#mainPage #mainproduct #prodets #addtofav{
+    width: 60%;
+    margin-left: 5vw;
+}

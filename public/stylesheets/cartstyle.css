@@ -1,0 +1,93 @@
+#mainPage #mainLeftproduct{
+    width: 40vw;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+#mainPage #mainLeftproduct #card{
+/* background-color: salmon; */
+position: relative;
+height: 30vh;
+margin-bottom:6vh ;
+}
+#mainPage #mainLeftproduct #card #cartproducttop #image{
+    height: 16vh;
+    width: 10vw;
+}
+#mainPage #mainLeftproduct #card #cartproducttop #dets{
+    /* background-color: orangered; */
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 70%;
+}
+#mainPage #mainLeftproduct #card #cartproducttop #dets #price{
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+#mainPage #mainLeftproduct #card  #shipping{
+    position: absolute;
+    top: 75%;
+    left: 1%;
+    /* background-color: aqua; */
+}
+#mainPage #mainLeftproduct #card #func{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    width: 4.6vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainPage #mainLeftproduct form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+#mainPage #mainLeftproduct form select{
+ /* background-color: yellowgreen; */
+ height: 25px;
+ width: 3.4vw;
+ text-align: center;
+ border-radius: 10px;
+ 
+}
+#mainPage #mainLeftproduct form select option{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+}
+#mainPage #mainLeftproduct #card #hr{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    top: 110%;
+    left: 0;
+}
+#mainPage #summary{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%,-50%);
+    border: none;
+    width: 24rem;
+    height: 28rem;
+}
+#mainPage #summary #sumprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#mainPage #summary h5{
+    font-weight: 400;
+}
+#mainPage #summary a{
+    height: 6vh;
+    width: 100%;
+}
